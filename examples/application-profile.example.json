@@ -1,0 +1,26 @@
+{
+  "identity": {
+    "first_name": "",
+    "last_name": "",
+    "full_name": "",
+    "email": "",
+    "phone": "",
+    "city": "",
+    "province": "",
+    "country": "",
+    "location": "",
+    "street_address": "",
+    "postal_code": "",
+    "linkedin": ""
+  },
+  "work_authorization": {},
+  "salary_expectations": {},
+  "employment_history": {"roles": []},
+  "education": {},
+  "additional_answers": {},
+  "employer_answers": {},
+  "application_source": "",
+  "application_privacy_consent": false,
+  "account_registration_consent": false,
+  "require_job_country_evidence": true
+}

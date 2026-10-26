@@ -1,0 +1,12 @@
+{
+  "applications_enabled": false,
+  "keyword_groups": ["data analyst", "analytics engineer", "systems analyst"],
+  "excluded_search_phrases": [],
+  "locations": [{"name": "Canada remote", "location": "Canada", "geo_id": "101174742", "workplace_types": "2"}],
+  "sort_by": "DD",
+  "posted_within_days": 7,
+  "pages_per_search": 1,
+  "details_per_search": 10,
+  "delay_seconds": 5,
+  "application_site_focus": {"preferred_providers": ["greenhouse", "lever", "ashby"]}
+}

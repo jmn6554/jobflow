@@ -7,6 +7,7 @@ name = "jobflow-local"
 version = "0.2.0"
 description = "Local-first job discovery, tracking, and human-approved application assistance"
 readme = "README.md"
+license = {file = "LICENSE"}
 requires-python = ">=3.11"
 dependencies = [
   "fastapi>=0.115,<1",
@@ -15,6 +16,10 @@ dependencies = [
   "python-multipart>=0.0.20,<1",
   "uvicorn>=0.34,<1",
 ]
+
+[project.urls]
+Repository = "https://github.com/jmn6554/jobflow"
+Issues = "https://github.com/jmn6554/jobflow/issues"
 
 [project.optional-dependencies]
 browser = ["playwright>=1.52,<2", "websockets>=15,<16"]

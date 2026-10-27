@@ -24,9 +24,11 @@ features sends applicant information to that provider and may incur charges.
 
 ## Quick start (macOS/Linux, Python 3.11+)
 
-Run from the repository directory:
+Clone the repository, then run setup from its directory:
 
 ```sh
+git clone https://github.com/jmn6554/jobflow.git
+cd jobflow
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -e '.[browser,dev]'
@@ -122,3 +124,14 @@ yourself and review any dataset's license before redistribution.
 
 The first release is a source checkout workflow. Use it from this directory;
 configuration files are not currently bundled as wheel package data.
+
+## Reusability roadmap
+
+Other users can configure their own local installation today, but setup is manual.
+A guided setup flow, broader configurable role filters, and end-to-end testing
+with additional applicant profiles remain future work. This is not yet a
+turnkey product or a multi-user service.
+
+## License
+
+MIT — see [LICENSE](LICENSE). Third-party services retain their own terms of use.
